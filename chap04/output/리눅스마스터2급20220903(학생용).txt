@@ -1,0 +1,695 @@
+리눅스마스터 2급           ◐2022년 09월 03일 필기 기출문제 ◑
+전자문제집 CBT : www.comcbt.com
+최강 자격증 기출문제 전자문제집 CBT : www.comcbt.com
+1. 다음은 /etc/passwd 파일의 내용을 출력하는 과정이다. ( 괄
+호 ) 안에 들어갈 명령어로 알맞은 것은?
+   
+   ① lp
+② lpc
+   ③ lpstat
+④ lprm
+2. 다음 중 System V 계열에 속하는 프린트 관련 명령어로 틀
+린 것은?
+   ① lp
+② lpc
+   ③ lpstat
+④ cancel
+3. 다음 설명에 해당하는 LVM 관련 용어로 알맞은 것은?
+   
+   ① 볼륨 그룹(VG)
+② 논리적 볼륨(LV)
+   ③ 물리적 볼륨(PV)
+④ 물리적 확장(PE)
+4. 다음 설명에 해당하는 용어로 알맞은 것은?
+   
+   ① ALSA
+② CUPS
+   ③ OSS
+④ SANE
+5. 다음 중 인터넷상에서 원격으로 인쇄하기 위해 사용되는 프
+로토콜명으로 알맞은 것은?
+   ① IPP
+② LPRng
+   ③ CUPS
+④ PPD
+6. 다음 중 구성된 디스크 중에 한 개라도 오류가 발생하면 데
+이터 복구가 불가한 RAID 구성법으로 알맞은 것은?
+   ① RAID-0
+② RAID-1
+   ③ RAID-5
+④ RAID-6
+7. 다음 중 rpm 명령에서 설치할 때 사용하는 옵션으로 가장 거
+리가 먼 것은?
+   ① -i
+② -U
+   ③ -f
+④ -F
+8. 다음 중 소스 파일을 이용한 설치 방법이 나머지 셋과 다른 
+것은?
+   ① Apache httpd
+② MySQL
+   ③ PHP
+④ Nmap
+9. 다음 중 데비안 계열 리눅스에서 사용하는 패키지 관리 도구
+로 가장 알맞은 것은?
+   ① rpm
+② yum
+   ③ dpkg
+④ YaST
+10. 다음 중 yum을 이용해서 nmap 패키지를 제거하는 명령으
+로 알맞은 것은?
+    ① yum delete nmap
+② yum clean nmap
+    ③ yum remove nmap
+④ yum destory nmap
+11. 다음 중 아파치 웹 서버 소스 파일을 내려받은 후 압축을 
+해제하는 과정이다. ( 괄호 ) 안에 들어갈 내용으로 알맞은 
+것은?
+    
+    ① jxvf
+② Jxvf
+    ③ zxvf
+④ Zxvf
+12. 다음 중 소스 파일을 이용한 설치 단계로 가장 알맞은 것
+은?
+    ① make clean → make → make install
+    ② make → make clean → make install
+    ③ configure → make → make install
+    ④ configure → make clean → make install
+13. 다음 중 온라인 기반 패키지 관리 도구로 거리가 먼 것은?
+    ① apt-get
+② yum
+    ③ zypper
+④ YaST
+14. 다음 중 의존성이 있는 httpd 패키지를 강제로 제거하는 명
+령으로 알맞은 것은?
+    ① rpm –r httpd --force   ② rpm –r httpd --nodeps
+    ③ rpm –e httpd --force  ④ rpm –e httpd --nodeps
+15. 다음 중 vi 편집기에서 변경된 내용을 저장하지 않고 종료하
+는 명령으로 알맞은 것은?
+    ① :w!
+② :q!
+    ③ :x!
+④ :e!
+16. 다음 중 emacs 편집기를 개발한 인물로 알맞은 것은?
+    ① 빌 조이
+② 리처드 스톨먼
+    ③ 리누스 토발즈
+④ 브람 무레나르
+17. 다음 중 vi 편집기에서 줄의 시작이 linux 일 때 Linux로 치
+환하는 명령으로 알맞은 것은?
+    ① :% s/^linux/Linux/
+② :% s/\<linux/Linux/
+    ③ :% s/\<linux\>/Linux/
+④ :% s/$linux/Linux/
+18. 다음 중 vi 편집기에서 현재 커서가 위치한 줄부터 아래 방
+향으로 3줄 복사하는 명령으로 알맞은 것은?
+    ① 3j
+② 3p
+    ③ 3dd
+④ 3yy
+19. 다음은 ( 괄호 ) 안에 들어갈 내용으로 알맞은 것은?
+1과목 : 리눅스 운영 및 관리
+리눅스마스터 2급           ◐2022년 09월 03일 필기 기출문제 ◑
+전자문제집 CBT : www.comcbt.com
+최강 자격증 기출문제 전자문제집 CBT : www.comcbt.com
+    
+    ① ㉠ vi, ㉡ vim
+② ㉠ vi, ㉡ pico
+    ③ ㉠ pico, ㉡ nano
+④ ㉠ nano, ㉡ pico
+20. 다음은 vi 편집기 실행 시에 자동으로 행 번호가 나타나도록 
+설정하는 과정이다. ( 괄호 ) 안에 들어갈 파일명과 설정 내
+용의 조합으로 알맞은 것은?
+    
+    ① ㉠ .virc, ㉡ set no
+  ② ㉠ .virc, ㉡ set nu
+    ③ ㉠ .exrc, ㉡ set no   ④ ㉠ .exrc, ㉡ set nu
+21. 다음 중 백그라운드로 수행 중인 프로세스를 확인하는 명령
+어로 알맞은 것은?
+    ① bg
+② fg
+    ③ jobs
+④ nohup
+22. 다음 중 CentOS 7 버전에서 모든 프로세스의 시작이 되는 
+프로세스 이름으로 알맞은 것은?
+    ① init
+② inetd
+    ③ deamon
+④ systemd
+23. 다음 제시된 명령을 백그라운드 프로세스로 실행하려고 할 
+때 ( 괄호 ) 안에 들어갈 내용으로 알맞은 것은?
+    
+    ① ;
+② |
+    ③ &
+④ +
+24. 다음 중 작업 중인 터미널이 닫혀야 실행 중인 프로세스를 
+계속해서 백그라운드 프로세스로 유지하려고 할 때 사용하
+는 명령어로 알맞은 것은?
+    ① bg
+② fg
+    ③ jods
+④ nohup
+25. 다음 명령의 결과에 대한 설명으로 알맞은 것은?
+    
+    ① PID가 513번인 프로세스에 1번 시그널을 전송한다.
+    ② PID가 513번인 프로세스에 9번 시그널을 전송한다.
+    ③ PID가 513번인 프로세스에 15번 시그널을 전송한다.
+    ④ kill 명령어는 프로세스명을 사용하므로 명령 오류가 발생
+한다.
+26. 다음은 프로세스 아이디(PID)가 1222번인 프로세스의 우선
+순위 값을 변경하는 과정이다. ( 괄호 ) 안에 들어갈 명령어
+로 알맞은 것은?
+    
+    ① nice
+② renice
+    ③ top
+④ ps
+27. 다음 ( 괄호 ) 안에 들어갈 내용으로 가장 알맞은 것은?
+    
+    ① ㉠ standalone, ㉡ foreground
+    ② ㉠ standalone, ㉡ background
+    ③ ㉠ daemon, ㉡ foreground
+    ④ ㉠ daemon, ㉡ background
+28. 다음 설명에 해당하는 명칭으로 알맞은 것은?
+    
+    ① exec
+② fork
+    ③ init
+④ inetd
+29. 다음 중 cron을 이용해서 매주 1회만 작업 스크립트를 실행
+하려고 할 때 ( 괄호 ) 안에 들어갈 내용을 알맞은 것은?
+    
+    ① 4 0 * 1 *
+② 4 0 1 * *
+    ③ 4 0 * * 2
+④ 4 0 * 2 *
+30. 다음 중 [Ctrl]+[z] 키 조합으로 실행했을 때 발생하는 시그
+널명과 번호의 조합으로 알맞은 것은?
+    ① SIGSTOP, 19
+② SIGSTOP, 20
+    ③ SIGTSTP, 19
+④ SIGTSTP, 20
+31. 다음 설명에 해당하는 셸의 기능으로 알맞은 것은?
+    
+    ① 명령행 완성 기능
+② 명령행 편집 기능
+    ③ 명령어 히스토리 기능
+④ 명령어 alias 기능
+32. 다음 중 현재 사용 가능한 셸 목록 정보가 저장된 파일명으
+로 알맞은 것은?
+    ① /etc/passwd
+② /etc/shells
+    ③ /etc/login.defs
+④ /etc/default/useradd
+33. 다음 설명에 해당하는 셸로 알맞은 것은?
+    
+    ① ksh
+② tcsh
+    ③ bash
+④ dash
+리눅스마스터 2급           ◐2022년 09월 03일 필기 기출문제 ◑
+전자문제집 CBT : www.comcbt.com
+최강 자격증 기출문제 전자문제집 CBT : www.comcbt.com
+34. 다음 선언된 셸 변수를 해제하는 명령어로 알맞은 것은?
+    ① env
+② set
+    ③ unset
+④ printenv
+35. 다음 설명에 해당하는 파일로 가장 알맞은 것은?
+    
+    ① ˜/.bashrc
+② ˜/.bash_history
+    ③ ˜/.bash_profile
+④ ˜/.bash_logout
+36. 다음 ( 괄호 ) 안에 출력되는 내용으로 알맞은 것은?
+    
+    ① lin    
+② USER
+    ③ ihduser    
+④ 아무것도 출력되지 않는다.
+37. 다음 중 로그인 셸을 확인하는 명령으로 알맞은 것은?
+    ① cat SHELL
+② cat $SHELL
+    ③ echo SHELL
+④ echo $SHELL
+38. 다음은 ihduser 사용자가 로그인 후에 사용 중인 셸을 확인
+하는 과정이다. ( 괄호 ) 안에 들어갈 내용으로 알맞은 것
+은?
+    
+    ① ps
+② chsh -s
+    ③ chsh -l
+④ chsh -u
+39. 다음 중 디스크 용량 단위를 적은 순서부터 큰 순서로 바르
+게 나열한 것은?
+    ① GB＜TB＜PB＜EB
+② TB＜GB＜PB＜EB
+    ③ GB＜TB＜EB＜PB
+④ TB＜GB＜EB＜PB
+40. 다음은 ihduser 사용자의 디스크 사용량을 확인하는 과정이
+다. ( 괄호 ) 안에 들어갈 명령어로 알맞은 것은?
+    
+    ① quota
+② mount
+    ③ df
+④ du
+41. 다음은 /project 디텍터리를 포함해서 하위 디렉터리 및 파
+일의 그룹 소유권을 project로 변경하는 과정이다. ( 괄호 ) 
+안에 들어갈 내용으로 알맞은 것은?
+    
+    ① chgrp -r
+② chgrp -R
+    ③ chmod -r
+④ chown -r
+42. 다음은 XFS 파일 시스템으로 구성된 /dev/sdb1 파티션을 
+점검 및 복구하는 과정이다. ( 괄호 ) 안에 들어갈 명령으로 
+알맞은 것은?
+    
+    ① fsck –t xfs
+② e2fsck –t xfs
+    ③ xfs_repair
+④ mkfs –t xfs
+43. 다음 결과에 해당하는 명령어로 알맞은 것은?
+    
+    ① fdisk
+② mount
+    ③ df
+④ du
+44. 다음 중 chmod 명령어 사용법 관련된 예로 틀린 것은?
+    ① chmod u+s a.out
+  ② chmod g+s a.out
+    ③ chmod o+t /project   ④ chmod g+t /project
+45. 다음은 ihduser 사용자의 디스크 쿼터를 설정하는 과정이다. 
+( 괄호 ) 안에 들어갈 명령으로 알맞은 것은?
+    
+    ① quota
+② edquota
+    ③ repquota
+④ xfs_quota
+46. 다음 명령을 실행했을 경우에 'a.txt' 파일의 허가권 값으로 
+알맞은 것은?
+    
+    ① ----r--r--
+② -rwxr-xr-x
+    ③ -rw-r--r--
+④ -rw-rw-r--
+47. 다음 중 사용자 디스크 쿼터 설정을 위해 /etc/fstab 파일에 
+설정하는 옵션 값으로 틀린 것은?
+    ① quota
+② uquota
+    ③ usrquota
+④ userquota
+48. 다음의 경우 관련 설명으로 알맞은 것은?
+    
+    ① ihduser 사용자는 /project 디렉터리에 들어갈 수 없다.
+    ② ihduser 사용자는 /project 디렉터리에 들어갈 수는 있으
+나 파일을 생성할 수 없다.
+    ③ ihduser 사용자가 /project 디렉터리에 파일을 생성하면 
+그룹 소유권은 project이다.
+    ④ ihduser 사용자가 /project 디렉터리에 파일을 생성하면 
+그룹 소유권은 ihduser이다.
+리눅스마스터 2급           ◐2022년 09월 03일 필기 기출문제 ◑
+전자문제집 CBT : www.comcbt.com
+최강 자격증 기출문제 전자문제집 CBT : www.comcbt.com
+49. 다음 중 리눅스 커널 기반으로 만들어진 운영체제로 틀린 
+것은?
+    ① webOS
+② QNX
+    ③ GENIVI
+④ Tizen
+50. 다음 설명의 경우에 구성해야 할 클러스터 기법으로 가장 
+알맞은 것은?
+    
+    ① 베어울프 클러스터
+② 고계산용 클러스터
+    ③ 부하분산 클러스터
+④ 고가용성 클러스터
+51. 다음 설명에 가상화 기술로 알맞은 것은?
+    
+    ① Docker
+② Xen
+    ③ KVM
+④ VirtualBox
+52. 다음 설명에 해당하는 빅데이터 관련 기술로 알맞은 것은?
+    
+    ① Hadoop
+② NoSQL
+    ③ R
+④ Anisible
+53. 다음은 특정 IP 주소에 가상 도메인을 설정하는 과정이다. ( 
+괄호 ) 안에 들어갈 파일명으로 알맞은 것은?
+    
+    ① /etc/hosts
+    ② /etc/resolv.conf
+    ③ /etc/sysconfig/network
+    ④ /etc/sysconfig/network-scripts
+54. 다음 설명에 해당하는 파일로 알맞은 것은?
+    
+    ① /etc/hosts
+    ② /etc/resolv.conf
+    ③ /etc/sysconfig/network
+    ④ /etc/sysconfig/network-scripts
+55. 다음 중 FTP 서비스에서 사용하는 포트 번호에 대한 설명
+으로 알맞은 것은?
+    ① FTP 서비스는 20번 포트를 사용해서 데이터 전송 및 제
+어를 관리한다.
+    ② FTP 서비스는 21번 포트를 사용해서 전송 및 제어를 관
+리한다.
+    ③ FTP 서비스는 20번 포트로 데이터를 전송하고, 21번 포
+트로 제어한다.
+    ④ FTP 서비스는 20번 포트로 제어하고, 21번 포트로 데이
+터를 전송한다.
+56. 다음 설명에 해당하는 인터넷 서비스로 알맞은 것은?
+    
+    ① SSH
+② telnet
+    ③ NFS
+④ FTP
+57. 다음 설명에 해당하는 웹 브라우저로 알맞은 것은?
+    
+    ① 사파리
+② 오페라
+    ③ 크롬
+④ 파이어폭스
+58. 다음 중 전자 우편 서비스와 관련된 프로토콜로 가장 거리
+가 먼 것은?
+    ① SNMP
+② SMTP
+    ③ IMAP
+④ POP3
+59. 다음 설명에 해당하는 LAN 구성 방식으로 알맞은 것은?
+    
+    ① 망(Mesh)형
+② 링(Ring)형
+    ③ 버스(Bus)형
+④ 스타(Star)형
+60. 다음 그림에 해당하는 케이블로 알맞은 것은?
+2과목 : 리눅스 활용
+리눅스마스터 2급           ◐2022년 09월 03일 필기 기출문제 ◑
+전자문제집 CBT : www.comcbt.com
+최강 자격증 기출문제 전자문제집 CBT : www.comcbt.com
+    
+    ① STP
+② UTP
+    ③ BNC
+④ Fiber Cable
+61. 다음 중 C 클래스 네트워크 대역에서 서브넷 마스크값을 
+255.255.255.192로 설정했을 때 생성되는 서브 네트워크의 
+개수로 알맞은 것은?
+    ① 2
+② 4
+    ③ 62
+④ 64
+62. 다음 중 로컬 네트워크상에 있는 다른 호스트의 MAC 주소
+를 확인할 때 사용하는 명령으로 알맞은 것은?
+    ① ip
+② ss
+    ③ arp
+④ ifconfig
+63. 다음 중 라우팅 테이블 정보를 출력하는 명령으로 알맞은 
+것은?
+    ① ip
+② ifconfig
+    ③ mii-tool
+④ ethtool
+64. 다음 중 CentOS 7 버전에서 이더넷 카드(Ethernet Card)를 
+장착했을 때 나타나는 장치명의 형식으로 가장 알맞은 것
+은?
+    ① lo
+② eth0
+    ③ enp0s3
+④ virbr0
+65. 다음 중 SSH 서버의 변경된 포트 번호로 접속하기 위해 사
+용되는 ssh 명령어의 옵션으로 알맞은 것은?
+    ① -l
+② -n
+    ③ -p
+④ -x
+66. 다음 ( 괄호 ) 안에 들어갈 내용으로 알맞은 것은?
+    
+    ① ㉠ SMB, ㉡ CIFS
+② ㉠ SMB, ㉡ NFS
+    ③ ㉠ CIFS, ㉡ SMB
+④ ㉠ NFS, ㉡ CIFS
+67. 다음 설명에 해당하는 OSI 계층으로 알맞은 것은?
+    
+    ① 네트워크 계층
+② 전송 계층
+    ③ 세션 계층
+④ 표현 계층
+68. 다음 중 IPv4의 C 클래스 네트워크 주소 대역으로 알맞은 
+것은?
+    ① 191.0.0.0 ~ 223.255.255.255
+    ② 192.0.0.0 ~ 223.255.255.255
+    ③ 191.0.0.0 ~ 233.255.255.255
+    ④ 192.0.0.0 ~ 233.255.255.255
+69. 다음 ( 괄호 ) 안에 들어갈 내용으로 알맞은 것은?
+    
+    ① ㉠ IEEE, ㉡ ICANN
+  ② ㉠ ICANN, ㉡ IEEE
+    ③ ㉠ ICANN, ㉡ IANA   ④ ㉠ IANA, ㉡ ICANN
+70. 다음 설명에 해당하는 명칭으로 가장 알맞은 것은?
+    
+    ① X.25
+② ATM
+    ③ DQDB
+④ FDDI
+71. 다음 조건일 때 설정되는 게이트웨이 주소 값으로 가장 알
+맞은 것은?
+    
+    ① 192.168.5.126
+② 192.168.5.127
+    ③ 192.168.5.128
+④ 192.168.5.129
+72. 다음 설명에 해당하는 LAN 케이블 규격으로 알맞은 것은?
+    
+    ① CAT-5
+② CAT-5E
+    ③ CAT-6
+④ CAT-7
+73. 다음 중 마이크로소프트사의 파워포인트를 대체해서 사용할 
+수 있는 프로그램으로 알맞은 것은?
+    ① LibreOffice Writer
+② LibreOffice Draw
+    ③ LibreOffice Calc
+④ LibreOffice Impress
+74. 다음 중 이미지 뷰어 프로그램으로 가장 알맞은 것은?
+    ① eog
+② totem
+리눅스마스터 2급           ◐2022년 09월 03일 필기 기출문제 ◑
+전자문제집 CBT : www.comcbt.com
+최강 자격증 기출문제 전자문제집 CBT : www.comcbt.com
+    ③ evolution
+④ evince
+75. 다음 중 GNOME과 가장 관련이 깊은 라이브러리로 알맞은 
+것은?
+    ① Qt
+② Xlib
+    ③ XCB
+④ GTK+
+76. 다음은 X 서버에 접근할 수 있는 클라이언트를 허가하는 과
+정이다. ( 괄호 ) 안에 들어갈 내용으로 알맞은 것은?
+    
+    ① xset
+② xauth
+    ③ xhost
+④ xrandr
+77. 다음 중 윈도 매니저의 종류로 틀린 것은?
+    ① Metacity
+② Xfce
+    ③ Mutter
+④ Kwin
+78. GNOME 데스크톱을 사용 중인데, 다른 데스크톱 환경으로 
+변경하려고 한다. 다음 중 설치 가능한 데스크톱 환경으로 
+알맞은 것은?
+    ① KDE
+② Mutter
+    ③ Metacity
+④ Nautilus
+79. 다음 중 시스템 시작 시 콘솔 기반의 텍스트 모드로 부팅이 
+되도록 설정하는 명령으로 알맞은 것은?
+    ① systemctl set – default multi – user.service
+    ② systemctl set – default multi – user.target
+    ③ systemctl get – default multi – user.service
+    ④ systemctl get – default multi – user.target
+80. 다음은 X 윈도 터미널에서 해상도를 변경하는 과정이다. ( 
+괄호 ) 안에 들어갈 명령어로 알맞은 것은?
+    
+    ① xmodmap
+② xset
+    ③ xrefresh
+④ xrandr
+전자문제집 CBT PC 버전 : www.comcbt.com
+전자문제집 CBT 모바일 버전 : m.comcbt.com
+기출문제 및 해설집 다운로드 : www.comcbt.com/xe
+전자문제집 CBT란?
+종이 문제집이 아닌 인터넷으로 문제를 풀고 자동으로 채점하며 
+모의고사, 오답 노트, 해설까지 제공하는 무료 기출문제 학습 프
+로그램으로 실제 시험에서 사용하는 OMR 형식의 CBT를 제공합
+니다.
+PC 버전 및 모바일 버전 완벽 연동
+교사용/학생용 관리기능도 제공합니다.
+오답 및 오탈자가 수정된 최신 자료와 해설은 전자문제집 CBT 
+에서 확인하세요.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+①
+②
+②
+③
+①
+①
+③
+②
+③
+③
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+①
+③
+④
+④
+②
+②
+①
+④
+③
+④
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+③
+④
+③
+④
+③
+②
+④
+②
+③
+④
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+③
+②
+③
+③
+③
+③
+④
+①
+①
+④
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+②
+③
+②
+④
+②
+③
+④
+③
+②
+④
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+③
+①
+①
+②
+③
+①
+④
+①
+①
+②
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+②
+③
+①
+③
+③
+①
+③
+②
+④
+③
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+④
+②
+④
+①
+④
+③
+②
+①
+②
+④
