@@ -1,5 +1,6 @@
 from datetime import datetime
 import pytz
+import yfinance as yf
 
 def get_current_time(timezone: str = 'Asia/Seoul'):
     tz = pytz.timezone(timezone) # 타임존 설정
@@ -7,6 +8,12 @@ def get_current_time(timezone: str = 'Asia/Seoul'):
     now_timezone = f'{now} {timezone}'
     print(now_timezone)
     return now_timezone
+
+def get_yf_stock_info(ticker: str):
+    stock = yf.Ticker(ticker)
+    info = stock.info
+    print(info)
+    return str(info)
 
 tools = [
     {
@@ -26,7 +33,26 @@ tools = [
             }
         }
     },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_yf_stocker_info",
+            "description": "해당 종목의 Yahoo Finance 정보를 반환합니다."
+            "parameter": {
+                "type": "object",
+                "properties": {
+                    "ticker": {
+                        "type": "string",
+                        "dscription": 'Yahoo Finance 정보를 반환할 종목의 티커를 입력하세요'
+                    }
+                },
+                "required": ['ticker'],
+            }
+        }
+
+    }
 ]
 
 if __name__ == '__main__':
     get_current_time('America/New_York')
+    info = get_yf_stock_info('AAPL')
